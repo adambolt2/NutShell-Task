@@ -56,13 +56,13 @@ p {
 }
 .fade-in {
     opacity: 0;
-    transition: opacity 0.5s; /* You can adjust the duration as needed */
+    transition: opacity 0.5s; 
 }
 
 #recipeContent .fade-in {
     opacity: 1;
 }
-/* Style the recipe content */
+
 h1 {
     color: white;
 }
@@ -94,7 +94,7 @@ button {
 button:hover {
     background-color: #45a049;
 }
-/* Style serving controls */
+
 .serving-controls {
     margin-top: 20px;
 }
@@ -118,7 +118,7 @@ button:hover {
     background-color: #45a049;
 }
 
-/* Style ingredients list */
+
 ul {
     list-style: none;
     margin-top: 10px;
@@ -130,7 +130,7 @@ ul li {
     margin-bottom: 5px;
 }
 
-/* Style directions list */
+
 ol {
     list-style: decimal;
     margin-top: 10px;
@@ -148,7 +148,6 @@ ol li {
 
 
 
-/* Style tags and author information */
 p {
     font-size: 16px;
     margin-top: 10px;
@@ -162,7 +161,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-/* Style the Directions section header */
+
 .section-header {
     font-size: 20px;
     font-weight: bold;
@@ -181,12 +180,11 @@ a:hover {
 }
 
 
-/* Style individual tags as pills */
 .tag-pill {
     display: inline-block;
-    background-color: #007BFF; /* Set your desired background color */
-    color: #fff; /* Set your desired text color */
+    background-color: #007BFF; 
+    color: #fff; 
     padding: 5px 10px;
-    border-radius: 20px; /* Adjust the value to control the pill shape */
-    margin-right: 5px; /* Add spacing between tags */
+    border-radius: 20px; 
+    margin-right: 5px; 
 }
