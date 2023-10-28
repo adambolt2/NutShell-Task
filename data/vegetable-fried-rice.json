@@ -1,0 +1,33 @@
+{
+	"title": "Vegetable Fried Rice",
+	"description": "This dish combines the nutty flavor of brown rice with the fresh taste of bell peppers, baby peas, and other vegetables.",
+	"ingredients": [
+		{"qty":"3","unit":"cup(s)","item":"water"},
+		{"qty":"1 1/2","unit":"cup(s)","item":"quick-cooking brown rice"},
+		{"qty":"2","unit":"tablespoon(s)","item":"peanut oil"},
+		{"qty":"1","unit":"","item":"small yellow onion, chopped"},
+		{"qty":"1","unit":"","item":"green bell pepper, chopped"},
+		{"qty":"1","unit":"teaspoon(s)","item":"minced garlic"},
+		{"qty":"1/4","unit":"teaspoon(s)","item":"red pepper flakes"},
+		{"qty":"3","unit":"","item":"green onions, thinly sliced"},
+		{"qty":"3","unit":"tablespoon(s)","item":"soy sauce"},
+		{"qty":"1","unit":"cup(s)","item":"frozen petite peas"},
+		{"qty":"2","unit":"teaspoon(s)","item":"sesame oil"},
+	{"qty":"1/4","unit":"cup(s)","item":"roasted peanuts (optional) "}
+
+	],
+	"directions": [
+		"In a saucepan bring water to a boil. Stir in rice. Reduce heat, cover and simmer for 20 minutes.",
+		"Meanwhile, heat peanut oil in a large skillet or wok over medium heat. Add onions, bell pepper, garlic and pepper flakes, to taste. Cook 3 minutes, stirring occasionally.",
+		"Increase heat to medium-high and stir in cooked rice, green onions and soy sauce. Stir-fry for 1 minute. Add peas and cook 1 minute more. Remove from heat. Add sesame oil and mix well. Garnish with peanuts, if desired."
+	],
+	"prep_time_min": 15,
+	"cook_time_min": 40,
+	"servings": 4,
+	"tags": [ "main dish", "vegetarian" ],
+	"author": {
+		"name": "Dakota Kelly",
+		"url": "http://allrecipes.com/cook/1223369/profile.aspx"
+	},
+	"image_url": "./images/friedRice.jpg"
+}

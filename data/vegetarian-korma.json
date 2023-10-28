@@ -1,0 +1,38 @@
+{
+	"title": "Vegetarian Korma",
+	"description": "This is an easy and exotic Indian dish. It's rich, creamy, mildly spiced, and extremely flavorful. Serve with naan and rice.",
+	"ingredients": [
+		{"qty":"1 1/2","unit":"tablespoon(s)","item":"vegetable oil"},
+		{"qty":"1","unit":"","item":"small onion, diced"},
+		{"qty":"1","unit":"teaspoon(s)","item":"minced fresh ginger root"},
+		{"qty":"4","unit":"clove(s)","item":"garlic, minced"},
+		{"qty":"2","unit":"","item":"potatoes, cubed"},
+		{"qty":"4","unit":"","item":"carrots, cubed"},
+		{"qty":"1","unit":"","item":"fresh jalapeno pepper, seeded and sliced"},
+		{"qty":"3","unit":"tablespoon(s)","item":"ground unsalted cashew"},
+		{"qty":"1","unit":"(4 ounce) can(s)","item":"tomato sauce"},
+		{"qty":"2","unit":"teaspoon(s)","item":"salt"},
+		{"qty":"1 1/2","unit":"tablespoon(s)","item":"curry powder"},
+		{"qty":"1","unit":"cup(s)","item":"frozen peas"},
+		{"qty":"1/2","unit":"","item":"green bell pepper, chopped"},
+		{"qty":"1/2","unit":"","item":"red bell pepper, chopped"},
+		{"qty":"1","unit":"cup(s)","item":"heavy cream"},
+		{"qty":"1","unit":"bunch","item":"fresh cilantro for garnish"}
+],
+	"directions": [
+		"Heat the oil in a skillet over medium heat. Stir in the onion, and cook until tender.",
+		"Mix in ginger and garlic, and continue cooking 1 minute.",
+		"Mix potatoes, carrots, jalapeno, cashews, and tomato sauce. Season with salt and curry powder. Cook and stir 10 minutes, or until potatoes are tender.",
+		"Stir peas, green bell pepper, red bell pepper, and cream into the skillet. Reduce heat to low, cover, and simmer 10 minutes.",
+		"Garnish with cilantro to serve."
+	],
+	"prep_time_min": 25,
+	"cook_time_min": 30,
+	"servings": 4,
+	"tags": [ "main dish", "vegetarian", "indian" ],
+	"author": {
+		"name": "Yakuta",
+		"url": "http://allrecipes.com/cook/116722/profile.aspx"
+	},
+	"image_url": "./images/veg-korma.jpg"
+}

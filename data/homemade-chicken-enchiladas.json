@@ -1,0 +1,38 @@
+{
+	"title": "Homemade Chicken Enchiladas",
+	"description": "These enchiladas are great. Even my 5 year old loves them!",
+	"ingredients": [
+		{"qty":"1","unit":"tablespoon(s)","item":"olive oil"},
+		{"qty":"2","unit":"","item":"cooked chicken breasts"},
+		{"qty":"1","unit":"","item":"onion, diced"},
+		{"qty":"1","unit":"","item":"green bell pepper, diced"},
+		{"qty":"1 1/2","unit":"clove(s)","item":"garlic, chopped"},
+		{"qty":"1","unit":"cup(s)","item":"cream cheese"},
+		{"qty":"1","unit":"cup(s)","item":"shredded Monterey jack cheese"},
+		{"qty":"1","unit":"(15 ounce) can(s)","item":"tomatoe sauce"},
+		{"qty":"1","unit":"tablespoon(s)","item":"chilli powder"},
+		{"qty":"1","unit":"tablespoon(s)","item":"dried parsley"},
+		{"qty":"1","unit":"teaspoon(s)","item":"dried oregano"},
+		{"qty":"1/2","unit":"teaspoon(s)","item":"salt"},
+		{"qty":"1/2","unit":"teaspoon(s)","item":"ground black pepper"},
+		{"qty":"8","unit":"10 inch","item":"flour tortillas"},
+		{"qty":"2","unit":"cup(s)","item":"enchilada sauce"},
+		{"qty":"1","unit":"cups(s)","item":"Monterey Jack cheese"}
+
+	],
+	"directions": [
+		"Preheat oven to 350 degrees F (175 degrees C).",
+		"Heat olive oil in a skillet over medium heat. Cook and stir chicken, onion, green bell pepper, garlic, cream cheese, and 1 cup Monterey Jack cheese in hot oil until the cheese melts, about 5 minutes. Stir tomato sauce, chili powder, parsley, oregano, salt, and black pepper into the chicken mixture.",
+		"Divide mixture evenly into tortillas, roll the tortillas around the filling, and arrange in a baking dish. Cover with enchilada sauce and remaining 1 cup Monterey Jack cheese.",
+		"Bake in preheated oven until cheese topping melts and begins to brown, about 15 minutes."
+	],
+	"prep_time_min": 15,
+	"cook_time_min": 20,
+	"servings": 8,
+	"tags": [ "main dish" ],
+	"author": {
+		"name": "Mary Kate",
+		"url": "http://allrecipes.com/cook/14977239/profile.aspx"
+	},
+	"image_url": "./images/easy-chicken-enchiladas-sq-010.jpg"
+}

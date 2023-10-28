@@ -1,0 +1,34 @@
+{
+	"title": "Black Bean and Rice Enchiladas",
+	"description": "These vegetarian black bean and rice enchiladas are just as satisfying as those served in restaurants.",
+	"ingredients": [
+		{"qty":"1","unit":"tablespoon(s)","item":"olive oil"},
+		{"qty":"1","unit":"","item":"green bell pepper, chopped"},
+		{"qty":"1","unit":"","item":"onion, chopped"},
+		{"qty":"3","unit":"clove(s)","item":"garlic, minced"},
+		{"qty":"1","unit":"(15 ounce) can","item":"black beans, rinsed and drained"},
+		{"qty":"1","unit":"(14.5 ounce) ","item":"diced tomatoes and green chillies"},
+		{"qty":"1/4","unit":"cup(s)","item":"picante sauce"},
+		{"qty":"1","unit":"tablespoon(s)","item":"chilli powder"},
+		{"qty":"1","unit":"teaspoon(s)","item":"ground cumin"},
+		{"qty":"1/4","unit":"teaspoon(s)","item":"red pepper flakes"},
+		{"qty":"2","unit":"cup(s)","item":"cooked brown rice"},
+		{"qty":"3","unit":"tablespoon(s)","item":"chopped fresh cilantro leaves"},
+		{"qty":"1/4","unit":"cup(s)","item":"shredded Cheddar cheese"}
+	],
+	"directions": [
+		"Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13-inch baking dish.",
+		"Heat oil in a large skillet over medium heat; cook and stir green pepper, onion, and garlic until tender, about 7 minutes. Stir in beans, tomatoes, picante sauce, chili powder, cumin, and red pepper flakes; bring to a boil. Reduce heat to low and simmer, uncovered, until heated through and mixture thickens, about 5 minutes. Fold in rice and 1 cup Cheddar cheese; cook until heated through, about 5 minutes.",
+		"Spoon a rounded 1/2 cup bean mixture down the center of each tortilla. Fold sides over filling and roll up. Place enchiladas seam side down in baking dish; spoon salsa over each tortilla. Cover baking dish with aluminum foil.",
+		"Bake in preheated oven for 25 minutes. Uncover and sprinkle with cilantro and 1/4 cup Cheddar cheese. Bake until cheese is melted, 2 to 3 minutes."
+	],
+	"prep_time_min": 15,
+	"cook_time_min": 50,
+	"servings": 8,
+	"tags": [ "main dish", "vegetarian" ],
+	"author": {
+		"name": "Diana Manzella-Miller",
+		"url": "http://allrecipes.com/cook/13191855/profile.aspx"
+	},
+	"image_url": "./images/black-bean-enchiledas.jpg"
+}

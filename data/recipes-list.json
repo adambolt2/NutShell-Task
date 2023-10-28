@@ -1,0 +1,58 @@
+{
+	"recipes": [{
+			"title": "Black Bean and Rice Enchiladas",
+			"id": 1,
+			"src": "./images/black-bean-enchiledas.jpg"
+		},
+		{
+			"title": "Basil and Pesto Hummus",
+			"id": 2,
+			"src": "./images/basil-pesto-hummus.jpg"
+		},
+		{
+			"title": "Banana Oatmeal Cookie",
+			"id": 3,
+			"src": "./images/Banana-Oat-Cookies-square-FS-1-500x375.jpg"
+		},
+		{
+			"title": "World's Best Lasagna",
+			"id": 4,
+			"src": "./images/Best-Lasagna-550.jpg"
+		},
+		{
+			"title": "Vegetarian Korma",
+			"id": 5,
+			"src": "./images/veg-korma.jpg"
+		},
+		{
+			"title": "Vegetable Fried Rice",
+			"id": 6,
+			"src": "./images/Vegetable_Fried_Brown_Rice-2.jpg"
+		},
+		{
+			"title": "Marinated Grilled Shrimp",
+			"id": 7,
+			"src": "./images/shrimp.jpg"
+		},
+		{
+			"title": "Homemade Chicken Enchiladas",
+			"id": 8,
+			"src": "./images/easy-chicken-enchiladas-sq-010.jpg"
+		},
+		{
+			"title": "Homemade Black Bean Veggie Burgers",
+			"id": 9,
+			"src": "./images/blackbeanburger1.jpg"
+		},
+		{
+			"title": "Four Cheese Margherita Pizza",
+			"id": 10,
+			"src": "./images/pizza.jpg"
+		},
+		{
+			"title": "Divine Hard-Boiled Eggs",
+			"id": 11,
+			"src": "./images/wholesomeyum-baked-hard-boiled-eggs-in-the-oven-2.jpg"
+		}
+	]
+}

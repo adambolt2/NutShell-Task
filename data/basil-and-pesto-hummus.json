@@ -1,0 +1,28 @@
+{
+	"title": "Basil and Pesto Hummus",
+	"description": "This deliciously-sweet hummus is bursting with basil and an all-around pesto body.",
+	"ingredients": [
+		{"qty":"1","unit": "can (16 ounce)","item":"garbanzo beans (chickpeas), drained and rinsed"},
+		{"qty":"1/2","unit":"cup","item": "basil leaves"},
+		{"qty":"1","unit": "clove","item": "garlic"},
+		{"qty":"1","unit": "tablespoon","item": "olive oil"},
+		{"qty":"1/2","unit":"teaspoon","item":"balsamic vinegar"},
+		{"qty":"1/2","unit":"teaspoon","item":"soy sauce"},
+		{"qty":"","unit":"","item":"salt and ground black pepper to taste"}
+
+	],
+	"directions": [
+			"Combine the garbanzo beans, basil, and garlic in a food processor; pulse several times. Use a spatula to push mixture from sides of processor bowl.",
+			"Pulse the mixture again while drizzling in the olive oil.",
+			"Add the vinegar and soy sauce; pulse until combined.",
+			"Season with salt and pepper."
+	],
+	"prep_time_min": 10,
+	"servings": 5,
+	"tags": [ "appetizer", "snack", "dip", "spread", "vegetarian" ],
+	"author": {
+		"name": "Fantastic Dan",
+		"url": "http://allrecipes.com/cook/10167621/profile.aspx"
+	},
+	"image_url": "./images/basil-pesto-hummus.jpg"
+}
