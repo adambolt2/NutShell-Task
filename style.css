@@ -10,6 +10,20 @@ body {
     padding: 20px;
 }
 
+.recipe-image {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    max-width: 300px; /* Adjust the container's max width as needed */
+    margin: 0 auto; /* To center the container itself on the page */
+}
+
+
 h1 {
     background-color: #4CAF50;
     color: #fff;

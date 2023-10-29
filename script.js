@@ -73,6 +73,13 @@ function loadRecipeContent() {
 
                 recipeContent.innerHTML = `
                     <h1>${recipeData.title}</h1>
+                   
+                   
+                    <div class="image-container">
+                    <img src="${recipeData.image_url}" alt="Image for ${recipeData.title}" class="recipe-image">
+                </div>
+                
+
                     <p><strong>Description:</strong> ${recipeData.description}</p>
 
 
@@ -115,8 +122,8 @@ function loadRecipeContent() {
 
                     <p><strong>Author:</strong> <a href="${recipeData.author.url}" target="_blank">${recipeData.author.name}</a></p>
 
-                    <img src="${recipeData.imageUrl}" alt ="Image for ${recipeData.title}">
-                `;
+                   
+                    `;
 
 
               
@@ -154,94 +161,50 @@ function loadRecipeContent() {
                     }
                 }
 
-                function calculateAdjustedQty(qty, originalServing, newServing) {
-                    // Calculate the adjusted quantity
-                    const conversionFactor = newServing / originalServing;
-                    return convertQty(qty, conversionFactor);
-                }
-
-                function convertQty(qty, conversionFactor) {
-                    // Function to convert a quantity to a fraction or whole number
-                    const parseFraction = (input) => {
-                        const parts = input.split(' ').map(part => {
-                            const [numerator, denominator] = part.split('/').map(Number);
-                            if (!isNaN(numerator) && !isNaN(denominator)) {
-                                return numerator / denominator;
-                            }
-                            return parseInt(part, 10);
-                        });
-
-                        if (parts.length === 2) {
-                            return parts[0] + parts[1];
-                        }
-
-                        return parts[0];
-                    };
-
-                    const parsedQty = parseFraction(qty) * conversionFactor;
-                    const whole = Math.floor(parsedQty);
-                    const remainder = parsedQty - whole;
-
-                    if (remainder === 0) {
-                        return whole.toString();
-                    } else {
-
-                        // 16 is safe if we cant find more fractions 
-                        let numerator = Math.round(remainder * 16); // Convert remainder to a fraction out of 16
-                        let denominator = 16;
-
-                        // Simplify the fraction
-                        for (let i = 2; i <= 16; i++) {
-                            if (numerator % i === 0 && denominator % i === 0) {
-                                numerator /= i;
-                                denominator /= i;
-                                i = 1;
-                            }
-                        }
-
-                        if (whole > 0) {
-                            return `${whole} ${numerator}/${denominator}`;
-                        } else {
-                            return `${numerator}/${denominator}`;
-                        }
-                    }
-                }
-
-                // Update the formatIngredient function
-                // this is how we turn the / in the json file to an actual fraction
-                // we use the Fraction library for it to be cleaner and more accurate
-                // either that or a lot of mapping
-                // ive never really appreciated decimal values until today 
-
-                function formatIngredient(qty) {
-                    const parts = qty.split(' ');
-                    return parts.map(part => {
-                        if (part.includes('/')) {
-                            try {
-                                const fraction = new Fraction(part);
-                                const formattedFraction = fraction.toFraction(true);
-                                const [numerator, denominator] = formattedFraction.split('/');
-                                if (numerator === denominator) {
-                                    return numerator;
-                                }
-                                return formattedFraction;
-                            } catch (error) {
-                                return part;
-                            }
-                        }
-                        return part;
-                    }).join(' ');
-                }
-                
             })
             .catch(error => console.error("Error fetching recipe data: " + error));
     }
 }
 
-// make sure theres a number, catches salt and pepper to taste value initially
-function isNumeric(value) {
-    return !isNaN(value) && isFinite(value);
+
+
+
+function calculateAdjustedQty(qty, originalServing, newServing) {
+    const conversionFactor = newServing / originalServing;
+    return formatIngredient(convertQty(qty).mul(conversionFactor).toString());
 }
+  // convert the qty to a fraction using the fraction library
+
+function convertQty(qty) {
+    return new Fraction(qty);
+}
+
+
+ // Update the formatIngredient function
+ // this is how we turn the / in the json file to an actual fraction
+ // we use the Fraction library for it to be cleaner and more accurate
+ // either that or a lot of mapping
+ // ive never really appreciated decimal values until today 
+
+    function formatIngredient(qty) {
+    const parts = qty.split(' ');
+    return parts.map(part => {
+        
+            try {
+                const fraction = new Fraction(part);
+                return fraction.toFraction(true); // Force fraction format
+            } catch (error) {
+                return part;
+            }
+        
+      
+    }).join(' ');
+        }
+
+// make sure theres a number, catches salt and pepper to taste value initially
+    function isNumeric(value) {
+    return !isNaN(value) && isFinite(value);
+        }
 
 
 // some css stuff because i finished the tasks a bit early think it looks cool
@@ -250,7 +213,7 @@ function isNumeric(value) {
     
         recipeContent.classList.add("fade-in");
         
-    };
+        };
 
     // Event listener to trigger fade-in and remove class after transition
     document.getElementById("recipeContent").addEventListener("transitionend", (event) => {
@@ -274,5 +237,8 @@ function isNumeric(value) {
         setTimeout(() => {
             loadRecipeContent(); // Load new content after the fade-out animation
         }, 500);
+
+        // dirtier fix for CSS stuff, but works just as well 
+
         // Add fade-in when a new recipe is loaded
     });
